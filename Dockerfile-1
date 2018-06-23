@@ -1,0 +1,3 @@
+FROM python:3.7-rc-alpine
+
+CMD ["python", "-c", "import this"]
