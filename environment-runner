@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+export GUEST=jdrake
+
+# Execute the original command provided to this script
+exec "$@"
